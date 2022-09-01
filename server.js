@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
 
 //GET Date ENDPOINT
 app.get('/customer', function (req, res) {
-  http.get('http://customer-info-http-cp4i.itzroks-060001q8qm-07gi5z-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-south.containers.appdomain.cloud/getDetails', res => {
+  http.get('http://customer-info-is:7800/getDetails', res => {
    
  
 });
