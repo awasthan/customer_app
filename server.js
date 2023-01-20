@@ -1,6 +1,9 @@
+const instana = require('@instana/collector');
+instana(); // this is fine
 var express = require("express"); 
 var app = express();
 var http = require('http');
+
 
 // Set the Server Port
 var PORT  = process.env.PORT || 8080
