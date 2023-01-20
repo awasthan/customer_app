@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
 
 //GET Date ENDPOINT
 app.get('/customer', function (req, res) {
-  http.get('http://customer-info-ir:7800/getDetails', res => {
+  http.get('http://customer-info-is:7800/getDetails', res => {
    
  
 });
