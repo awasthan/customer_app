@@ -12,6 +12,7 @@ COPY package.json /app
 
 #Install rpm packages from package.json
 RUN npm install
+RUN npm install --save @instana/collector
 
 #Copy over app to app folder
 COPY . /app 
